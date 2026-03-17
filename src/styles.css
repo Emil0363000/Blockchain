@@ -709,7 +709,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  animation: overlayFadeIn 0.2s ease;
+  animation: overlayFadeIn 0.35s ease;
 }
 
 .modal-box {
@@ -722,14 +722,14 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 80px rgba(23, 235, 189, 0.08);
-  animation: boxSlideUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: boxSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .block-content--slide-left {
-  animation: slideInFromLeft 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: slideInFromLeft 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .block-content--slide-right {
-  animation: slideInFromRight 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: slideInFromRight 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .modal-header {

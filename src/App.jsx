@@ -106,12 +106,8 @@ function BlockModal({ data, loading, onClose, onNavigate, voteBlocks }) {
           </div>
         </div>
 
-        {loading ? (
-          <div style={{ textAlign: 'center', padding: '48px', color: 'var(--text-dim)', fontSize: '12px' }}>
-            <Spinner /> Chargement du bloc...
-          </div>
-        ) : (
-          <div className="modal-body">
+        {(
+          <div className="modal-body" style={loading ? { opacity: 0.45, pointerEvents: 'none', transition: 'opacity 0.15s' } : { transition: 'opacity 0.15s' }}>
           <div key={block?.number} className={slideDir ? `block-content--slide-${slideDir}` : ''}>
             {event ? (
               <>
