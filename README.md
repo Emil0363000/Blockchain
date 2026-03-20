@@ -1,3 +1,25 @@
+# Documentation
+
+## Introduction
+
+## Objectifs
+  - Connecter un utilisateur avec MetaMask
+  - Récupérer une adresse Ethereum
+  - Envoyer une transaction
+  - Gérer un cooldown entre les actions
+  - Écouter les événements en temps réel
+  - Lire l’historique des transactions
+
+## Stacks techniques
+  - React
+  - Ethers.js
+  - MetaMask
+  - Solidity
+  - Sepolia
+
+## Cloner le projet 
+git clone https://github.com/Emil0363000/Blockchain.git
+
 # Analyse:
 
 ## Observation de l'interfce 
@@ -62,4 +84,3 @@ Décentralisation — pas d'entité de contrôle: Oui
 ### Ce que la blockchain n'apporte pas
 L'anonymité totale, il y a une adresse publique qui est reliée au transaction donc pas anonyme.
 Un utilisateur technique pourrait contourner le cooldown via plusieurs wallets. 
-### Verdict final
